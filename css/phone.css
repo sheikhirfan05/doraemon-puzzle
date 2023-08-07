@@ -1,0 +1,313 @@
+@media only screen and (min-width: 200px) and (max-width: 290px){
+    body{
+        overflow: scroll;
+    }
+    #navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #navbar ul{
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 50%;
+        background-color: #0c67ae;
+        box-sizing: border-box;
+        z-index: 5;
+    }
+    .container{
+        width: 100%;
+    }
+    #title{
+        max-width: 90%;
+    }
+    #board{
+        width: 99%;
+    }
+    #board img{
+        width: 8.5rem;
+    }
+    #navbar ul li:nth-child(4){
+        display: none;
+    }
+    #navbar ul li:nth-child(5){
+        display: block;
+    }
+    #navbar ul li{
+        margin-top: 5rem;
+    }
+    #navbar .buttons{
+        display: none;
+    }
+    #navbar .bars{
+        display: flex;
+        position: relative;
+        z-index: 7;
+    }
+    #navbar .bar2{
+        position: relative;
+        z-index: 4;
+    }
+    .footer{
+        height: 4rem;
+        position: relative;
+        margin-top: 20;
+    }
+    h1{
+        top: 5px;
+    }
+}
+@media only screen and (min-width: 290px) and (max-width: 330px){
+    body{
+        overflow: scroll;
+    }
+    #navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #navbar ul{
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 50%;
+        background-color: #0c67ae;
+        box-sizing: border-box;
+        z-index: 5;
+    }
+    .container{
+        width: 100%;
+    }
+    #title{
+        max-width: 90%;
+    }
+    #board{
+        width: 100%;
+    }
+    #board img{
+        width: 9.9rem;
+    }
+    #navbar ul li:nth-child(4){
+        display: none;
+    }
+    #navbar ul li:nth-child(5){
+        display: block;
+    }
+    #navbar ul li{
+        margin-top: 5rem;
+    }
+    #navbar .buttons{
+        display: none;
+    }
+    #navbar .bars{
+        display: flex;
+        position: relative;
+        z-index: 7;
+    }
+    #navbar .bar2{
+        position: relative;
+        z-index: 4;
+    }
+    .footer{
+        height: 4rem;
+        position: relative;
+        margin-top: 20;
+    }
+    h1{
+        top: 5px;
+    }
+}
+@media only screen and (min-width: 330px) and (max-width: 350px){
+    body{
+        overflow: hidden;
+    }
+    #navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #board{
+        height: 30rem;
+        width: 30rem;
+    }
+    #board img{
+        height: 9.2rem;
+        width: 9.3rem;
+    }
+    #title{
+        width: 90%;
+    }
+    .container{
+        margin-top: 10rem;
+    }
+    #navbar ul{
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 50%;
+        background-color: #0c67ae;
+        box-sizing: border-box;
+        z-index: 5;
+    }
+    #navbar ul li:nth-child(4){
+        display: none;
+    }
+    #navbar ul li:nth-child(5){
+        display: block;
+    }
+    #navbar ul li{
+        margin-top: 5rem;
+    }
+    #navbar .buttons{
+        display: none;
+    }
+    #navbar .bars{
+        display: flex;
+        position: relative;
+        z-index: 7;
+    }
+    #navbar .bar2{
+        position: relative;
+        z-index: 4;
+    }
+    .footer{
+        height: 4rem;
+    }
+    h1{
+        top: 10px;
+    }
+}
+@media only screen and (min-width: 350px) and (max-width: 420px){
+    body{
+        overflow: hidden;
+    }
+    #navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #board{
+        height: 30rem;
+        width: 30rem;
+    }
+    #board img{
+        height: 9.2rem;
+        width: 9.3rem;
+    }
+    #title{
+        width: 90%;
+    }
+    .container{
+        margin-top: 10rem;
+    }
+    #navbar ul{
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 50%;
+        background-color: #0c67ae;
+        box-sizing: border-box;
+        z-index: 5;
+    }
+    #navbar ul li:nth-child(4){
+        display: none;
+    }
+    #navbar ul li:nth-child(5){
+        display: block;
+    }
+    #navbar ul li{
+        margin-top: 5rem;
+    }
+    #navbar .buttons{
+        display: none;
+    }
+    #navbar .bars{
+        display: flex;
+        position: relative;
+        z-index: 7;
+    }
+    #navbar .bar2{
+        position: relative;
+        z-index: 4;
+    }
+    .footer{
+        height: 4rem;
+    }
+    h1{
+        top: 10px;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 830px){
+    body{
+        overflow: hidden;
+    }
+    #navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .container{
+        margin-top: 15rem;
+    }
+    #navbar ul{
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 50%;
+        background-color: #0c67ae;
+        box-sizing: border-box;
+        z-index: 5;
+        border: .2rem solid #005a9e;
+    }
+    #navbar ul li:nth-child(4){
+        display: none;
+    }
+    #navbar ul li:nth-child(5){
+        display: block;
+    }
+    #navbar ul li{
+        margin-top: 5rem;
+    }
+    #navbar ul li a{
+        font-size: 1.5rem;
+    }
+    #navbar .buttons{
+        display: none;
+    }
+    #navbar .bars{
+        display: flex;
+        position: relative;
+        z-index: 7;
+    }
+    #navbar .bar2{
+        position: relative;
+        z-index: 4;
+    }
+    .footer{
+        height: 4rem;
+    }
+    h1{
+        top: 10px;
+    }
+}
